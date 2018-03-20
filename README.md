@@ -22,7 +22,7 @@ commit con sus cambios y subirlo al repositorio del equipo.
 ## Zordon, we need the megazord!
 Ya resolvieron los mini-retos, pero ¿Y el trabajo en equipo?
 
-![megazord](https://media.giphy.com/media/6FqMUJRWKIgIo/giphy.gif)
+![megazord](https://media.giphy.com/media/pheOCmHVZehjy/giphy.gif)
 
 Ahora, Unirán sus cambios de cada mini-reto en el archivo `jungle.py`.
 Haciendo de éste un solo compilado de todos los cambios. noten que CADA
