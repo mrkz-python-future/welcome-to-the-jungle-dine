@@ -61,7 +61,7 @@ def use_queue():
 # commit change: modify the exceptions raise in order to make it compatible with python3
 
 def do_something():
-    raise Exception, "Nothing was done ;-("
+    raise valueError( "Nothing was done ;-(")
 
 
 def main():
