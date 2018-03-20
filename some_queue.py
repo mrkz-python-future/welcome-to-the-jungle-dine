@@ -1,8 +1,8 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 #encoding=utf-8
 
 from __future__ import print_function
-import Queue
+import queue
 
 # The naming of the Queue library on python has changed between
 # python2 and python3, according to 
@@ -14,7 +14,7 @@ import Queue
 
 def use_queue():
     """perform some queue operations"""
-    q = Queue.Queue()
+    q = queue.Queue()
     for i in range(10):
         q.put_nowait(i)
     while q.qsize() > 0:
