@@ -12,7 +12,7 @@
 #
 # * code should be python-future ready! (Python3 compatible)
 
-import Queue
+import queue
 import argparse
 import sys
 
