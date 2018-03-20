@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 #encoding=utf-8
 
 # THE FINAL CHALLANGE: Work as a true team and each member should
@@ -17,7 +17,7 @@ import argparse
 import sys
 
 # The division operation was changed between python2 and python3
-# 
+#
 # In python2 an operation like 3/2 will return 1, while performing
 # the same operation in python3 will result in 1.5
 #
@@ -32,10 +32,10 @@ def division(a, b):
 #
 # commit change: modify the puts function to work properly with python3
 def puts(message):
-    print message
+    print (message)
 
 # The naming of the Queue library on python has changed between
-# python2 and python3, according to 
+# python2 and python3, according to
 # http://python-future.org/compatible_idioms.html#queue
 # modify the required lines of code to make this code to work with
 # python3.
@@ -55,7 +55,7 @@ def use_queue():
 
 # The form of raising exceptions changed syntax between python2 and
 # python3.
-# 
+#
 # According to http://python-future.org/compatible_idioms.html#raising-exceptions
 #
 # commit change: modify the exceptions raise in order to make it compatible with python3

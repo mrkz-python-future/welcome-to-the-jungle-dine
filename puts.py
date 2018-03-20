@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 #encoding=utf-8
 
 
@@ -7,7 +7,7 @@
 #
 # hint: only 2 lines of code require to be changed
 def puts(message):
-    print message
+    print (message)
 
 
 def main():
