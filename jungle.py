@@ -25,7 +25,7 @@ import sys
 def division(a, b):
     """This function returns the division of the given 2 numeric values."""
     if b != 0:
-        return a/b
+        return a//b
 
 # The puts function will print the given message on screen, but this is python2
 # format, change it to work properly on python3
