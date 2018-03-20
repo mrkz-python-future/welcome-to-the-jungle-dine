@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 #encoding=utf-8
 
 from __future__ import print_function
@@ -12,7 +12,7 @@ from __future__ import print_function
 # hint: only 2 lines of code require to be changed.
 
 def do_something():
-    raise Exception, "Nothing was done ;-("
+    raise valueError("Nothing was done ;-(")
 
 
 def main():
