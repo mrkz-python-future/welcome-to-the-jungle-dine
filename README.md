@@ -20,10 +20,9 @@ Una vez que cada mini-reto ha sido futurizado, cada miembro deberá hacer un
 commit con sus cambios y subirlo al repositorio del equipo.
 
 ## Zordon, we need the megazord!
-
-![megazord](https://media2.giphy.com/media/6FqMUJRWKIgIo/giphy.gif)
-
 Ya resolvieron los mini-retos, pero ¿Y el trabajo en equipo?
+
+![megazord](https://media.giphy.com/media/6FqMUJRWKIgIo/giphy.gif)
 
 Ahora, Unirán sus cambios de cada mini-reto en el archivo `jungle.py`.
 Haciendo de éste un solo compilado de todos los cambios. noten que CADA
