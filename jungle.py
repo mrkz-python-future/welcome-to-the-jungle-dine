@@ -45,7 +45,7 @@ def puts(message):
 
 def use_queue():
     """perform some queue operations"""
-    q = Queue.Queue()
+    q = queue.Queue()
     for i in range(10):
         q.put_nowait(i)
     while q.qsize() > 0:
