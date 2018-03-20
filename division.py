@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 #encoding=utf-8
 
 from __future__ import print_function
@@ -15,14 +15,15 @@ from __future__ import print_function
 def division(a, b):
     """This function returns the division of the given 2 numeric values."""
     if b != 0:
-        return a/b
+        return a//b
 
 def main():
     """main function, no code from this should be modified"""
     result = division(3,2)
-    if result != 1.5:
-        print("3/2 is not correct! (expecting 1.5, recieved {0})".format(result))
-
+    if result != 1:
+        print("3/2 is not correct! (expecting 1, recieved {0})".format(result))
+    else:
+        print("Result: {0}".format(result))
 
 if __name__ == "__main__":
     main()
